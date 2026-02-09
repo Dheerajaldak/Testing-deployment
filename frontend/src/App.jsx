@@ -110,7 +110,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/process-claim",
+        "https://testing-deployment-b8qa.onrender.com/process-claim",
         formData,
       );
       setResult(response.data);
